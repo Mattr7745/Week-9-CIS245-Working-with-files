@@ -5,10 +5,10 @@
 filename = input("Enter a name for your file:")
 firstname = input("Enter your first name:")
 address = input("Enter your address:")
-phone = input("Enter your phone number:")
+phonenumber = input("Enter your phone number:")
 
 #puts first name, address and phone number into a comma delimited string
-info = (f"{firstname},{address},{phone}")
+info = (f"{firstname},{address},{phonenumber}")
 
 #writes the above string to a file
 with open(filename, 'w') as file_object:
